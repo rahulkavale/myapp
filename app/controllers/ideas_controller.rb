@@ -16,6 +16,7 @@ class IdeasController < ApplicationController
   def new
     @idea = Idea.new
     @idea.name = "new ideusiytdgxjha"
+    @idea.desc
   end
 
   # GET /ideas/1/edit
